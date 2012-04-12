@@ -1,0 +1,11 @@
+To install the extension into Chrome:
+
+1. Download the code to a folder
+
+2. Open Chrome and navigate to chrome://extensions
+
+3. Click on "Developer mode" and click "Load unpacked extension..."
+
+4. Browse to the folder you used in step 1
+
+The extension will now run the next time you login (or refresh) redmine.

@@ -9,6 +9,8 @@ div#showSidebar{
     opacity: 0.8;
     -moz-opacity: 0.8;
     filter:alpha(opacity=8);
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
 }
 
 div#showSidebar:hover{

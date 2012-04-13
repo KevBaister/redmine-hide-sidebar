@@ -4,7 +4,7 @@
   "description" : "Puts the option in redmine to toggle the visibility of the sidebar",
   "content_scripts": [
     {
-      "matches": ["*://redmine/issues","*://redmine/*/issues"],
+      "matches": ["*://redmine/issues","*://redmine/*/issues","*://redmine/*/issues*"],
       "js": ["jquery-1.7.2.min.js","hide-sidebar.js"],
       "css": ["hide-sidebar.css"]
     }
